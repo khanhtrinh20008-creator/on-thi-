@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "subjects": [
+    {"id": "toan", "name": "Toán", "iconUrl": ""},
+    {"id": "van", "name": "Ngữ văn", "iconUrl": ""},
+    {"id": "anh", "name": "Tiếng Anh", "iconUrl": ""},
+    {"id": "ly", "name": "Vật lý", "iconUrl": ""},
+    {"id": "hoa", "name": "Hóa học", "iconUrl": ""},
+    {"id": "sinh", "name": "Sinh học", "iconUrl": ""},
+    {"id": "su", "name": "Lịch sử", "iconUrl": ""},
+    {"id": "dia", "name": "Địa lý", "iconUrl": ""},
+    {"id": "cong_nghe", "name": "Công nghệ", "iconUrl": ""},
+    {"id": "tin_hoc", "name": "Tin học", "iconUrl": ""}
+  ],
+  "topics": [
+    {"id": "t_dao_ham", "subjectId": "toan", "title": "Đạo hàm", "contentMarkdown": "Đạo hàm của xⁿ là n·xⁿ⁻¹."},
+    {"id": "t_ham_so", "subjectId": "toan", "title": "Hàm số bậc nhất", "contentMarkdown": "Hàm số y = ax + b đồng biến khi a > 0, nghịch biến khi a < 0."},
+    {"id": "t_phuong_trinh", "subjectId": "toan", "title": "Phương trình bậc nhất", "contentMarkdown": "ax + b = 0 có nghiệm x = −b/a khi a ≠ 0."},
+    {"id": "t_tac_gia", "subjectId": "van", "title": "Tác giả – tác phẩm", "contentMarkdown": "Nam Cao là tác giả của Chí Phèo và Lão Hạc."},
+    {"id": "t_thi", "subjectId": "anh", "title": "Thì hiện tại đơn", "contentMarkdown": "Với he/she/it, thêm s hoặc es vào động từ."},
+    {"id": "t_luc", "subjectId": "ly", "title": "Lực và định luật Newton", "contentMarkdown": "F = m·a. Đơn vị lực là niutơn (N)."},
+    {"id": "t_muoi", "subjectId": "hoa", "title": "Muối", "contentMarkdown": "Muối ăn là natri clorua, công thức NaCl."},
+    {"id": "t_nguyen_tu", "subjectId": "hoa", "title": "Cấu tạo nguyên tử", "contentMarkdown": "Số hiệu nguyên tử bằng số proton."}
+  ],
+  "questions": [
+    {"id": "q1", "topicId": "t_dao_ham", "questionText": "Đạo hàm của f(x) = x³ là?", "questionType": "mcq", "options": ["3x²", "x²", "3x", "x³/3"], "correctAnswer": 0, "explanation": "Áp dụng (xⁿ)′ = n·xⁿ⁻¹ với n = 3.", "tip": "Hạ bậc: lấy số mũ nhân hệ số, giảm số mũ đi 1."},
+    {"id": "q2", "topicId": "t_ham_so", "questionText": "Cho hàm số y = 2x + 1. Xác định đúng/sai của từng mệnh đề.", "questionType": "tf", "options": ["Hàm số đồng biến trên ℝ.", "Đồ thị cắt trục tung tại điểm (0; 1).", "Hàm số nghịch biến trên ℝ.", "Đồ thị đi qua điểm (1; 2)."], "correctAnswer": [true, true, false, false], "explanation": "a = 2 > 0 nên đồng biến. Khi x = 0 thì y = 1. Khi x = 1 thì y = 3.", "tip": "a > 0 thì đồng biến. Thay x = 0 để tìm giao điểm với trục tung."},
+    {"id": "q3", "topicId": "t_phuong_trinh", "questionText": "Nghiệm của 2x + 6 = 0 là x = ?", "questionType": "short", "options": [], "correctAnswer": "-3", "explanation": "2x = −6 nên x = −3.", "tip": "Chuyển 6 sang vế phải rồi chia cho 2."},
+    {"id": "q4", "topicId": "t_luc", "questionText": "Đơn vị của lực trong hệ SI là?", "questionType": "mcq", "options": ["Jun (J)", "Niutơn (N)", "Oát (W)", "Paxcan (Pa)"], "correctAnswer": 1, "explanation": "Lực có đơn vị niutơn, ký hiệu N.", "tip": "Nhớ F = m·a: kg·m/s² chính là N."},
+    {"id": "q5", "topicId": "t_muoi", "questionText": "Công thức hóa học của muối ăn là?", "questionType": "mcq", "options": ["NaCl", "NaOH", "Na2CO3", "KCl"], "correctAnswer": 0, "explanation": "Muối ăn là natri clorua, NaCl.", "tip": "NaOH là bazơ, không phải muối ăn."},
+    {"id": "q6", "topicId": "t_nguyen_tu", "questionText": "Số hiệu nguyên tử của oxi là?", "questionType": "short", "options": [], "correctAnswer": "8", "explanation": "Oxi có 8 proton.", "tip": "Số hiệu nguyên tử = số proton."},
+    {"id": "q7", "topicId": "t_thi", "questionText": "She ___ to school every day.", "questionType": "mcq", "options": ["go", "goes", "going", "gone"], "correctAnswer": 1, "explanation": "Ngôi thứ ba số ít ở hiện tại đơn thêm -es.", "tip": "Với he/she/it, nhớ thêm s hoặc es."},
+    {"id": "q8", "topicId": "t_tac_gia", "questionText": "Tác giả của truyện ngắn Chí Phèo là?", "questionType": "mcq", "options": ["Nam Cao", "Ngô Tất Tố", "Vũ Trọng Phụng", "Tô Hoài"], "correctAnswer": 0, "explanation": "Chí Phèo là tác phẩm của Nam Cao.", "tip": "Nhớ Nam Cao với Chí Phèo và Lão Hạc."},
+    {"id": "q9", "topicId": "t_dao_ham", "questionText": "Đạo hàm của f(x) = x² là?", "questionType": "mcq", "options": ["2x", "x", "2", "x²"], "correctAnswer": 0, "explanation": "(x²)′ = 2x.", "tip": "Nhân số mũ 2 xuống trước, rồi giảm mũ đi 1."}
+  ]
+}
